@@ -5,7 +5,6 @@ def main():
     char_count = count_characters(text)
     alph_count = filter_alph(char_count)
     sort_alph = sort_count(alph_count)
-    print(sort_alph)
     print(f"--- Begin report of {book} ---")
     print(f"{num_words} words found in the document")
     for i in range(0, len(sort_alph)):
